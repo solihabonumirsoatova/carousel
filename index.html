@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOTSTRAP</title>
+    <!-- botstrap css -->
+    <link rel="stylesheet" href="bootstrap.css" />
+    <!-- stayle css -->
+    <link rel="stylesheet" href="stayle.css" />
+    <!-- bootstrap JS  -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav p-4">
+        <div class="logo">MySite</div>
+        <ul class="menu">
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+          <li><button type="button" class="btn btn-dark">SignIn</button></li>
+        </ul>
+      </div>
+
+      <div class="promo text-bg-primary p-5 text-center">
+        <h1>Welcome to MySite</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem.</p>
+        <button type="button" class="btn btn-light">Learn more</button>
+      </div>
+    </header>
+
+    <main class="text-bg-secondary">
+      <div class="container">
+        <h2 class="text-center pt-5">Carousel</h2>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="pngtree-old-classic-car-art-in-the-woods-17-jpg-files-in-image_2671047.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="pngtree-old-classic-car-art-in-the-woods-17-jpg-files-in-image_2671047.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="pngtree-old-classic-car-art-in-the-woods-17-jpg-files-in-image_2671047.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+
+    <section>
+      <div class="container">
+        <h3 class="text-center mt-4">Cards</h3>
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="pngtree-old-classic-car-art-in-the-woods-17-jpg-files-in-image_2671047.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="pngtree-old-classic-car-art-in-the-woods-17-jpg-files-in-image_2671047.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="pngtree-old-classic-car-art-in-the-woods-17-jpg-files-in-image_2671047.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+      <h3 class="text-center">Table</h3>
+<div class="container">
+      <table class="table table-bordered">
+        <thead>
+          <tr class="table-primary text-center">
+            <td>#</td>
+            <td>First</td>
+            <td>Laste</td>
+            <td>HandLe</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-danger text-end">
+            <th scope="row">1</th>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>Mark</td>
+          </tr>
+          <tr class="table-danger text-center ">
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fet</td>
+          </tr>
+          <tr class="table-danger text-start">
+            <th scope="row">3</th>
+            <td>lary</td>
+            <td>the bird</td>
+            <td>@twitter</td>
+          </tr>
+          <tr class="table-danger text-end">
+            <th scope="row">4</th>
+            <td>John</td>
+            <td>Doe</td>
+            <td>@jdoe</td>
+          </tr>
+          <tr class="table-danger text-center">
+            <th scope="row">5</th>
+            <td>jane</td>
+            <td>Smith</td>
+            <td>@jsmith</td>
+          </tr>
+          <tr class="table-danger text-start">
+            <th scope="row">6</th>
+            <td>Tom</td>
+            <td>Brown</td>
+            <td>@tbrown</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </main>
+    <footer class="text-center me-3">Footer</footer>
+  </body>
+</html>

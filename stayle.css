@@ -1,0 +1,14 @@
+.nav{
+    display:flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    text-transform: uppercase;
+}
